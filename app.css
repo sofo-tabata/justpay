@@ -1,0 +1,997 @@
+body {
+    font-family: poppins, sans-serif;
+    color: #1A1B32;
+}
+
+.navbar-collapse {
+    margin: 8px 62px 13px 59px;
+}
+
+.navbar-brand {
+    width: 289px;
+    height: 130px;
+}
+
+.navbar-nav {
+    width: 50%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    padding-top: 1rem;
+    margin-right: 15%;
+}
+
+.nav-link {
+    font-size: 30px;
+    color: #1A1B32;
+}
+
+.language .nav-link {
+    margin-right: 0;
+    margin-left: 60px;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.navbar .dropdown-toggle::after {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.language .dropdown-item {
+    font-size: 30px;
+    color: #1A1B32;
+}
+
+.nav-btns {
+    display: flex;
+    flex-shrink: 0;
+    gap: 2rem;
+    font-size: 30px;
+    height: 65px;
+}
+
+.nav-btns button {
+    border-radius: 0.7rem;
+}
+
+.start {
+    border: 2px solid #1A1B32;
+    padding: 0 32px;
+}
+
+.logIn {
+    color: white;
+    background-color: #1A1B32;
+    padding: 0 60px;
+    border: none;
+}
+
+.navbar {
+    border-bottom: 4px solid #1A1B32;
+}
+
+.sell-section {
+    background-color: #F2F0F0;
+    padding-left: 150px;
+    padding-top: 2.5rem;
+}
+
+.sell-section .nav-btns {
+    gap: 1rem;
+}
+
+.sell article {
+    padding-top: 153px;
+    padding-bottom: 250px;
+    width: 1003px;
+    flex-grow: 1;
+}
+
+.sell-section h1 img {
+    width: 11rem;
+}
+
+.sell-section h2 {
+    font-size: 69px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.sell-section article .circle {
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.7rem;
+    border: 1px solid #1A1B32;
+    border-radius: 2rem;
+}
+
+.sell-section p:nth-of-type(1) {
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 4rem;
+}
+
+.sell-section p:nth-of-type(2) {
+    font-size: 35px;
+    font-weight: 400;
+    padding-left: 13px;
+
+
+}
+
+.sell-section input {
+    font-size: 35px;
+    border: none;
+    height: 108px;
+    border-radius: 1.5rem;
+    width: 80%;
+
+}
+
+.sell-section input::placeholder {
+    color: #1A1B32;
+    padding-left: 2rem;
+}
+
+.sell-section .register button {
+    position: absolute;
+    top: 0;
+    right: -1rem;
+    border: 4px solid #1A1B32;
+    font-size: 35px;
+    padding-left: 3.8rem;
+    padding-right: 3.8rem;
+    border-radius: 1.5rem;
+    height: 108px;
+}
+
+.sell-section form {
+    width: 85%;
+    border-radius: 1.5rem;
+    box-shadow: 0px 3px 6px 1px #00000029;
+}
+
+.sell-section .register {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.register div {
+    background-color: #1A1B32;
+    width: 86.5%;
+    height: 85%;
+    position: absolute;
+    left: 0.7rem;
+    top: 2rem;
+}
+
+.purple {
+    background-color: #D6CDF0;
+}
+
+.green {
+    background-color: #C3FEA8;
+}
+
+.pink {
+    background-color: #FFB6FF;
+}
+
+.blue {
+    background-color: #1A1B32;
+    color: white;
+}
+
+
+.sell-section figure {
+    flex-grow: 1;
+}
+
+.sell-section figure img {
+    max-width: 600px;
+}
+
+.carousel-item {
+    height: 800px;
+    background-color: white;
+}
+
+.instructions article:nth-of-type(2n - 1) {
+    padding-right: 159px;
+}
+
+.instructions article:nth-of-type(1) .d-flex {
+    gap: 113px;
+}
+
+.instructions article:nth-of-type(2) .d-flex {
+    gap: 96px;
+}
+
+.instructions article:nth-of-type(3) .d-flex {
+    gap: 166px;
+}
+
+.instructions h2 {
+    font-size: 85px;
+    margin-top: 244px;
+    margin-bottom: 269px;
+    font-weight: bold;
+}
+
+.instructions {
+    padding-left: 154px;
+    padding-bottom: 230px;
+}
+
+.steps {
+    width: 227px;
+    padding: 20px 28px 15px 12px;
+    font-size: 60px;
+    font-weight: 900;
+    color: #D6CDF0;
+    background-color: #1A1B32;
+    line-height: 60px;
+}
+
+.instructions button {
+    background-color: #F2F0F0;
+    border: 1px solid #D8CDF3;
+    border-radius: 0.6rem;
+    box-shadow: 0 3px 6px 1px #D8CDF3;
+    margin-top: 38px;
+    margin-bottom: 57px;
+    font-size: 45px;
+    padding: 5px 48px 5px 31px;
+}
+
+.instructions p {
+    font-size: 37px;
+}
+
+.instructions .carousel-control {
+    box-shadow: none;
+    opacity: 1;
+    background-color: #D6CDF0;
+    border: 2px solid #1A1B32;
+    width: 102px;
+    height: 99px;
+    position: absolute;
+    top: 580px;
+    padding: 0;
+}
+
+.carousel-control-prev {
+    left: 237px;
+}
+
+.carousel-control-next {
+    left: 360px;
+}
+
+.benefits {
+    padding: 120px 360px 280px 247px;
+    background-color: #F2F0F0;
+}
+
+.benefits h2 {
+    font-size: 77px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 60px;
+
+}
+
+.benefits h2 img {
+    height: 160px;
+}
+
+.benefits>div {
+    font-size: 40px;
+    display: flex;
+    gap: 86px;
+    margin-bottom: 66px;
+    align-items: center;
+}
+
+.benefits .order {
+    display: block;
+    min-width: 94px;
+    height: 94px;
+    background-color: #E1CBFD;
+    border: 2px solid #99FF92;
+    border-radius: 4rem;
+    text-align: center;
+    font-size: 52px;
+    padding-top: 0.3rem;
+    padding-left: 0.4rem;
+}
+
+.feedback {
+    background-color: #1A1B32;
+    padding-bottom: 163px;
+}
+
+.feedback .d-flex {
+    justify-content: space-around;
+    margin-bottom: 88px;
+}
+
+.feedback h2 {
+    padding-top: 180px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 250px;
+    font-size: 78px;
+}
+
+.feedback h2 span {
+    color: #FDBDFC;
+}
+
+.feedback h2 img {
+    height: 200px;
+}
+
+.feedback .card {
+    width: 30%;
+    background-color: #EFEAEA;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback h3 {
+    font-size: 33px;
+    text-align: center;
+    font-weight: bold;
+    padding: 51px 115px 11px 115px;
+    line-height: 3.3rem;
+    margin-bottom: 0;
+}
+
+.feedback .card>div:nth-of-type(1) {
+    padding-left: 49px;
+}
+
+.feedback .card>div:nth-of-type(2) {
+    padding-left: 450px;
+    padding-bottom: 45px;
+
+}
+
+.feedback .card p {
+    padding-left: 99px;
+    padding-right: 99px;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.next,
+.prev {
+    color: #1A1B32;
+    border: 2px solid #1A1B32;
+    width: 102px;
+    height: 99px;
+    padding: 0;
+    border-radius: 0.5rem;
+}
+
+.carousel-control-prev-icon {
+    color: #1A1B32;
+}
+
+.trustedBy {
+    padding: 197px 112px 254px 100px;
+}
+
+.trustedBy h2 {
+    font-size: 100px;
+    margin-bottom: 120px;
+    font-weight: 300;
+}
+
+.trustedBy h2 span {
+    color: #AD9AD6;
+}
+
+.trustedBy .users>div:nth-of-type(1) {
+    font-size: 137px;
+    font-weight: 300;
+    line-height: 9rem;
+}
+
+.trustedBy .users>div:nth-of-type(2) {
+    font-size: 56px;
+    font-weight: 300;
+}
+
+.trustedBy .users {
+    text-align: center;
+    background-color: #F0EAEA;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 2rem;
+    padding: 50px 30px 30px 60px;
+}
+
+.trustedBy .users span {
+    font-size: 110px;
+    color: #AD9AD6;
+}
+
+.partners {
+    background-color: #1A1B32;
+    padding: 188px 132px 556px 159px;
+}
+
+.partners h2 {
+    color: #C1ADEF;
+    font-size: 100px;
+    margin-bottom: 155px;
+    font-weight: 300;
+}
+
+.questions {
+    padding: 160px 402px 354px 400px;
+    background-image: url("files/curve.png");
+    background-repeat: no-repeat;
+    background-position-y: 600px;
+}
+
+.questions h2 {
+    font-size: 93px;
+    font-weight: 300;
+    margin-bottom: 95px;
+}
+
+.questions .dropdown button {
+    display: flex;
+    width: 100%;
+    min-height: 96px;
+    font-size: 29px;
+    border: 3px solid #1A1B32;
+    margin-bottom: 38px;
+    border-radius: 1.3rem;
+    font-weight: 600;
+    text-align: start;
+    padding-left: 1.8rem;
+    padding-right: 2.2rem;
+    background-color: #EFEAEA;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.account {
+    padding: 300px 285px 336px 166px;
+    background-color: #F2F0F0;
+    gap: 250px;
+    align-items: center;
+}
+
+.account h2 {
+    font-size: 88px;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+.account p {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.account h2 span {
+    font-weight: 800;
+    color: #FDBDFC;
+}
+
+.account .d-flex {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.account button {
+    display: block;
+    border: 3px solid #1A1B32;
+    border-radius: 2rem;
+}
+
+.account button:nth-of-type(1) {
+    margin-top: 10px;
+    font-size: 79px;
+    color: white;
+    background-color: #B9ACE6;
+    font-weight: 900;
+    padding: 10px 50px 20px 56px;
+}
+
+.account button:nth-of-type(2) {
+    background-color: #C3FEA8;
+    font-size: 53px;
+    font-weight: 300;
+    padding: 20px 78px;
+}
+
+.account button:nth-of-type(3) {
+    background-color: #1A1B32;
+    color: white;
+    font-size: 53px;
+    font-weight: 300;
+    padding: 25px 37px 29px 24px;
+}
+
+
+.account article {
+    width: 64%;
+}
+
+.account figure {
+    width: 36%;
+}
+
+.account .label {
+    flex-basis: 70rem;
+}
+
+.account .arrow {
+    width: 120px;
+}
+
+.account .flex-column {
+    gap: 38.5px;
+}
+
+footer {
+    border-top: 3px solid #1A1B32;
+    background-color: #B9ACE6;
+    padding: 655px 0 54px 91px;
+    padding-left: 91px;
+    padding-bottom: 54px;
+    font-size: 39px;
+    font-weight: 900;
+}
+
+.pink-text {
+    color: #FFB6FF;
+}
+
+.purple-text {
+    color: #E1CBFD;
+}
+
+.green-text {
+    color: #B2FF9E;
+}
+
+.highlight {
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+@media (min-width:1000px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media (max-width:1000px) {
+    .desktop {
+        display: none;
+    }
+
+    .sell-section {
+        padding-left: 0;
+        padding-bottom: 4rem;
+    }
+
+    .sell,
+    .sell-section>div:nth-of-type(3) {
+        padding-left: 3rem;
+    }
+
+    .sell-section .nav-btns {
+        flex-direction: row-reverse;
+        justify-content: center;
+        font-size: 1.4rem;
+        height: 3.5rem;
+    }
+
+    .start,
+    .logIn {
+        width: 40%;
+        padding: 0;
+    }
+
+    .navbar {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar-brand {
+        width: 150px;
+        height: 110px;
+    }
+
+    .navbar-brand img {
+        height: 6rem;
+        padding: auto;
+    }
+
+    .language .nav-link {
+        font-size: 2rem;
+    }
+
+    .sell h1 {
+        font-weight: 900;
+        font-size: 5rem;
+    }
+
+    .sell h2 .circle {
+        display: none;
+    }
+
+    .sell h2 {
+        font-size: 2.5rem;
+        font-weight: 400;
+        font-style: italic;
+        line-height: 4.5rem;
+    }
+
+    .sell figure img {
+        padding-top: 1rem;
+        width: 350px;
+    }
+
+    .sell article {
+        padding-top: 3.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .sell article p:nth-of-type(1) {
+        font-size: 20pt;
+        font-weight: 400;
+    }
+
+    .generate .register button {
+        font-size: 19pt;
+        border-width: 1pt;
+        height: 55pt;
+        border-radius: 1.2rem;
+    }
+
+    .generate .register input {
+        font-size: 19pt;
+        height: 55pt;
+        border-radius: 1.2rem;
+    }
+
+    .generate p:first-of-type {
+        font-size: 21pt;
+        font-weight: 400;
+        margin-top: 2rem;
+    }
+
+    .generate .register {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .instructions h2 {
+        font-size: 37pt;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 58pt;
+    }
+
+    .instructions h2 img {
+        width: 190pt;
+    }
+
+    .instructions {
+        padding: 77pt 44pt;
+        padding-bottom: 0;
+    }
+
+    .instructions .steps {
+        font-size: 29pt;
+        width: 113pt;
+        padding: 0.5rem;
+    }
+
+    .instructions p {
+        font-size: 18pt;
+        margin-bottom: 6rem;
+    }
+
+    .instructions button {
+        font-size: 21pt;
+        width: 100%;
+        margin-bottom: 28pt;
+        margin-top: 20pt;
+    }
+
+    .benefits {
+        padding: 58pt 28pt 45pt 28pt;
+    }
+
+    .benefits h2 {
+        font-size: 37pt;
+    }
+
+    .benefits h2 img {
+        height: 86pt;
+    }
+
+    .benefits .order {
+        font-size: 23pt;
+        font-weight: 900;
+        min-width: 47pt;
+        height: 47pt;
+        border: none;
+        padding-top: 0.4rem;
+        padding-left: 0.3rem;
+    }
+
+    .benefits>div {
+        gap: 22pt;
+        font-size: 18pt;
+        font-weight: 300;
+    }
+
+    .feedback {
+        padding: 50pt 38pt 116pt 19pt;
+    }
+
+    .feedback h2 {
+        font-size: 30pt;
+        font-weight: 400;
+        padding: 0;
+        line-height: 3.5rem;
+        margin-bottom: 0rem;
+    }
+
+    .feedback h2 img {
+        height: 81pt;
+        position: relative;
+        bottom: 2rem;
+
+    }
+
+    .feedback h3 {
+        font-size: 20pt;
+        line-height: 2.4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .feedback .d-flex .desktop {
+        display: none;
+    }
+
+    .feedback .card {
+        width: 313pt;
+        padding-bottom: 1rem;
+    }
+
+    .feedback .card p {
+        font-size: 18pt;
+        padding-left: 53pt;
+        padding-right: 45pt;
+    }
+
+    .feedback .d-flex {
+        margin-bottom: 36pt;
+    }
+
+    .feedback .card .position-absolute {
+        right: 5.5rem;
+    }
+
+    .feedback button {
+        width: 59pt;
+        height: 60pt;
+    }
+
+    .trustedBy {
+        padding-top: 86pt;
+        padding-bottom: 130pt;
+    }
+
+    .trustedBy .d-flex {
+        flex-direction: column;
+        gap: 35pt;
+        align-items: center;
+    }
+
+    .trustedBy .users {
+        width: 207pt;
+        height: 123pt;
+        padding: 0;
+    }
+
+    .trustedBy .sm-businesses {
+        height: 169pt;
+    }
+
+    .trustedBy .users div:nth-of-type(1) {
+        font-size: 60pt;
+        line-height: 4rem;
+        padding-top: 1.7rem;
+    }
+
+    .trustedBy .users div:nth-of-type(2) {
+        font-size: 28pt;
+    }
+
+    .trustedBy .users span {
+        font-size: 50pt;
+    }
+
+    .trustedBy h2 {
+        font-size: 36pt;
+        text-align: center;
+        margin-bottom: 61pt;
+    }
+
+    .trustedBy h2 .mobile {
+        color: #1A1B32;
+    }
+
+    .trustedBy h2 span:nth-of-type(1) {
+        color: #f3cbfd;
+    }
+
+    .partners {
+        padding-top: 102pt;
+        padding-bottom: 145pt;
+    }
+
+    .partners h2 {
+        font-size: 36pt;
+        text-align: center;
+        margin-bottom: 71pt;
+        color: #E6CAFF;
+    }
+
+    .partners .d-flex {
+        flex-direction: column;
+        gap: 39pt;
+    }
+
+    .partners .d-flex div:nth-of-type(1) img {
+        height: 36pt;
+    }
+
+    .partners .d-flex div:nth-of-type(2) img {
+        height: 53pt;
+    }
+
+    .partners .d-flex div:nth-of-type(3) img {
+        height: 62pt;
+    }
+
+    .partners .d-flex div:nth-of-type(4) {
+        display: none;
+    }
+
+    .questions {
+        padding: 75pt 25pt 209pt 26pt;
+        background-position-x: -1000px;
+        background-position-y: 300px;
+    }
+
+    .questions .dropdown button {
+        font-size: 16pt;
+        font-weight: 400;
+        border-width: 1pt;
+        line-height: 1.5rem;
+        padding: 0 1.5rem;
+        min-height: 51pt;
+        border-radius: 0.8rem;
+    }
+
+    .questions svg {
+        width: 15pt;
+    }
+
+    .questions h2 {
+        text-align: center;
+        margin-bottom: 40pt;
+        color: #B2FF9E;
+        font-size: 36pt;
+        font-weight: 500;
+
+    }
+
+    .account {
+        flex-direction: column;
+        padding: 105pt 44pt 141pt 44pt;
+        gap: 6rem;
+        background-image: url(files/green\ curve.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-position-x: 0;
+    }
+
+    .account article {
+        width: 100%;
+    }
+
+    .account h2 {
+        font-size: 40pt;
+        font-weight: 500;
+        width: 180pt;
+        margin-bottom: 40pt;
+    }
+
+    .account p {
+        font-size: 22pt;
+        width: 257pt;
+    }
+
+    .account button:nth-of-type(1) {
+        font-size: 40pt;
+        border-radius: 1.3rem;
+        border-width: 1pt;
+    }
+
+    .account button:nth-of-type(2) {
+        font-size: 24pt;
+        border-radius: 1.3rem;
+        padding: 0;
+        height: 57pt;
+        width: 185pt;
+        border-width: 1pt;
+    }
+
+    .account button:nth-of-type(3) {
+        font-size: 23pt;
+        border-radius: 1.3rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0.7rem;
+        height: 57pt;
+        width: 213pt;
+
+    }
+
+    .account button img {
+        width: 35pt;
+    }
+
+    .account .label {
+        font-size: 20pt;
+    }
+
+    footer {
+        background-color: #E1CBFD;
+        height: 724pt;
+        border-top: none;
+        padding: 0;
+    }
+
+    .account .label {
+        flex-basis: 0;
+        font-weight: 700;
+    }
+
+    .account article h2 span {
+        background-color: #1A1B32;
+        font-weight: 400;
+        display: inline-block;
+        height: 4rem;
+    }
+
+    .highlight {
+        font-weight: 300;
+        font-style: normal;
+    }
+
+}
